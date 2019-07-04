@@ -1,0 +1,20 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --project . && node build",
+    "clean:build": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad Hamid Raza",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-schedule": "^1.2.3",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^1.19.1",
+    "tsc-watch": "^2.2.1",
+    "typescript": "^3.5.2"
+  }
+}
